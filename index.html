@@ -1,554 +1,307 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <title>Nutri Care</title>
 
-  <title>Nutricare</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <meta name="author" content="SoftWar">
+    <meta name="description" content="Nutri Care Landing Page">
 
-  <link href="assets/img/logoreducido2.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <link href="assets/css/style.css" rel="stylesheet">
-
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <body>
-
-<header id="header" class="fixed-top d-flex align-items-center header-transparent">
-  <div class="container d-flex align-items-center justify-content-between">
-
-    <div class="logo">
-      <h1>
-        <a><img src="assets/img/logo2.png" alt="" class="img-fluid"></a>
-      </h1>
-
-    </div>
-
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-        <li><a class="nav-link scrollto" href="#about">Acerca de Nutricare</a></li>
-        <li><a class="nav-link scrollto" href="#details">Beneficios</a></li>
-        <li><a class="nav-link scrollto" href="#gallery">Galería</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #49CA53">
+        <div class="container">
+            <a class="navbar-brand mb-0" style="color: white">
+                <img src="images/leaf.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                Nutri Care
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" style="color: white; margin: 2px 10px">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" style="color: white; margin: 2px 10px">Nutrición</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" style="color: white; margin: 2px 10px">Nutricionistas</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" style="color: white; margin: 2px 10px">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-  </div>
-</header>
-
-<section id="hero">
-
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
-        <div data-aos="zoom-out">
-          <h1>Cuida tu salud con <span>Nutricare</span></h1>
-          <h2>Nutricare es una aplicación que conecta a los nutricionistas con los usuarios para poder
-            acceder a citas virtuales y recibir asesoramiento nutricional</h2>
-          <div class="text-center text-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Empecemos</a>
-          </div>
+    <div class="row">
+        <div class="col">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carousel-text">
+                    <div class="carousel-item active carousel_images">
+                        <img src="images/bg1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Recibe ayuda con cuales alimentos escoger</h2>
+                            <p>información nutricional, recomendaciones, etc.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel_images">
+                        <img src="images/bg2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Dietas básicas</h2>
+                            <p>Puedes seguir un plan nutricional ahora mismo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel_images">
+                        <img src="images/bg3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Realiza consultas virtuales</h2>
+                            <p>Nuestros nutricionistas pueden brindarte un plan nutricional personalizado</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#carouselExampleCaptions" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a href="#carouselExampleCaptions" class="carousel-control-next" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </a>
+            </div>
         </div>
-      </div>
-      <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-        <img src="assets/img/prueba12.png" class="img-fluid animated" alt="">
-      </div>
     </div>
-  </div>
 
-  <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-    <defs>
-      <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-    </defs>
-    <g class="wave1">
-      <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)"></use>
-    </g>
-    <g class="wave2">
-      <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)"></use>
-    </g>
-    <g class="wave3">
-      <use xlink:href="#wave-path" x="50" y="9" fill="#fff"></use>
-    </g>
-  </svg>
-
-</section>
-
-<main id="main">
-
-  <section id="about" class="about">
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-          <a href="https://youtu.be/COR8ARWEPYQ" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-        </div>
-
-        <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-          <h3>Nutricare está aquí para ayudarte</h3>
-          <p>Nutricare está enfocado en ayudar a distintas personas que quieran mejorar sus hábitos alimenticios desde la comodidad de su hogar.
-            En Nutricare estamos comprometidos con la salud de nuestros usuarios</p>
-
-          <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="bi-heart"></i></div>
-            <h4 class="title"><a href="">Crea en ti hábitos saludables</a></h4>
-            <p class="description">Los consejos y recetas publicadas en nuestra aplicación son aprobadas por especialistas de la plataforma.</p>
-          </div>
-
-          <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="bi-journal-medical"></i></div>
-            <h4 class="title"><a href="">Contacto ilimitado con tu nutricionista</a></h4>
-            <p class="description">Los asesoramientos nutricionales son brindados por especialistas y se realizan de manera online a través de una llamada.</p>
-          </div>
-
-          <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="bi-tools"></i></div>
-            <h4 class="title"><a href="">Alcanza tu meta de manera saludable</a></h4>
-            <p class="description">En nuestra plataforma, los usuarios poseen variadas herramientas que facilitarán el proceso en su mejora nutricional.</p>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="counts" class="counts">
-    <div class="container">
-
-      <div class="row" data-aos="fade-up">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="532" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Clientes satisfechos</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="340" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Nutricionistas</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Horas de consulta</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-people"></i>
-            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Trabajadores</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <section id="details" class="details">
-    <div class="container">
-
-      <div class="row content">
-        <div class="col-md-4" data-aos="fade-right">
-          <img src="assets/img/1.png" class="img-fluid" alt="">
-        </div>
-        <div class="col-md-8 pt-4" data-aos="fade-up">
-          <h3>Nuestros beneficios para clientes</h3>
-          <p class="fst-italic">
-            Sabemos que cuidas tu salud por lo que Nutricare ofrece estos beneficios.
-          </p>
-          <ul>
-            <li><i class="bi bi-check"></i> No tienes que salir de casa, Nutricare te permite tener citas online por medio de su aplicación.</li>
-            <li><i class="bi bi-check"></i> Nutricare cuenta con los mejores consejos e información que te ayudarán a cuidar tu salud.</li>
-            <li><i class="bi bi-check"></i> Contarás con programas de ejercicio para complementar tu dieta.</li>
-            <li><i class="bi bi-check"></i> Hemos mantenido un diseño simple e intuitivo en la aplicación para que nuestros usuarios puedan acceder a todos nuestros servicios sin problemas.</li>
-          </ul>
-          <p>
-            ¡Nutricare cuenta con todo un equipo de profesionales para ayudarte a conseguir tu objetivo!
-          </p>
-        </div>
-      </div>
-
-      <div class="row content">
-        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-          <img src="assets/img/2.png" class="img-fluid" alt="">
-        </div>
-        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-          <h3>Nuestros beneficios para nutricionistas</h3>
-          <p class="fst-italic">
-            Sabemos del trabajo sacrificado que ustedes realizan, por eso queremos ofrecerles estos beneficios.
-          </p>
-          <ul>
-            <li><i class="bi bi-check"></i> Nutricare te permite tener un mejor contacto con tus pacientes, ya que puedes brindar consultas online por medio de su aplicación. </li>
-            <li><i class="bi bi-check"></i> Conoce toda variedad de clientes que requieran de tus servicios. </li>
-            <li><i class="bi bi-check"></i> Obten ganancias por cada cita que realices en la aplicación, mientras más consultas atiendas más beneficios generas. </li>
-            <li><i class="bi bi-check"></i> Nutricare te permite conciliar tu vida personal y profesional, tú decides tus horarios de atención en la aplicación. </li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="gallery" class="gallery">
-    <div class="container">
-
-      <div class="section-title" data-aos="fade-up">
-        <h2>Galería</h2>
-        <p>Mira nuestra galería</p>
-      </div>
-
-      <div class="row no-gutters" data-aos="fade-left">
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-            <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
-              <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-            <a href="assets/img/gallery/gallery-11.jpg" class="gallery-lightbox">
-              <img src="assets/img/gallery/gallery-11.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-            <a href="assets/img/gallery/gallery-3.jpeg" class="gallery-lightbox">
-              <img src="assets/img/gallery/gallery-3.jpeg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-            <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
-              <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-            <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
-              <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-            <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
-              <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
-            <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
-              <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-            <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
-              <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <section id="testimonials" class="testimonials">
-    <div class="container">
-
-      <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Manuel Vargas</h3>
-              <h4>Nutricionista</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Gracias a Nutricare, pude conseguir nuevos clientes y mejorar mi estabildiad financiera en esta pandemia.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
+    <div class="container pt-4">
+        <!-- Section 1 -->
+        <div class="row">
+            <div class="col" style="padding: 45px; text-align: center">
+                <a style="color: #42B898; font-size: 55px; font-weight: bold">
+                    <i>Escoja entre multiples recetas nutricionales</i>
+                </a>
             </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Xiomara Salcedo</h3>
-              <h4>Estilista</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                En la página de Nutricare siempre encuentro lo que necesito para cuidar mi salud y la de mi familia
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>María Pérez</h3>
-              <h4>Estudiante universitaria</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                La cita fue satisfactoria, he vuelto a recuperar mi peso, y ahora me siento mejor que nunca
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="faq" class="faq section-bg">
-    <div class="container">
-
-      <div class="section-title" data-aos="fade-up">
-        <h2>Preguntas frecuentes</h2>
-        <p>preguntas frecuentes acerca de la pérdida de peso</p>
-      </div>
-
-      <div class="faq-list">
-        <ul>
-          <li data-aos="fade-up">
-            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1"> ¿En cuánto tiempo obtengo resultados notables físicamente? ¿Por qué?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-              <p>
-                Para tener resultados notables físicamente tienes que mantener una dieta balanceada, si es posible unirla con una rutina de ejercicios que involucra peso. Además, evitar consumir comida rápida y chatarra para poder tener mejores resultados más rápidamente.
-              </p>
+        <div class="row">
+            <div class="col-lg">
+                <div class="card" style="width: 20rem; background-color: #DBF9D8; padding: 30px 20px">
+                    <img src="images/pollo_jengibre.jpg" class="card-img-top img-fluid mb-4 rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pollo al limón, jengibre y ensalada</h5>
+                        <p class="card-text">
+                            Ingredientes:<br>
+                            - 2 unidades de Pechuga de pollo<br>
+                            - 2 cucharaditas de Jengibre<br>
+                            - . . .<br>
+                    </div>
+                    <a href="#" class="card-link">Leer más</a>
+                </div>
             </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="100">
-            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">¿Hacer mucho ejercicio me hará bajar de peso?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                No, la pérdida de peso depende de varios factores, pero lo que importa más es la buena alimentación. Por decirlo así, para bajar de peso depende un 80% en una buena alimentación, el 15% en descansar bien y el 5% es hacer ejercicio
-              </p>
+            <div class="col-lg">
+                <div class="card" style="width: 20rem; background-color: #DBF9D8; padding: 30px 20px">
+                    <img src="images/tapioca.jpg" class="card-img-top img-fluid mb-4 rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tapioca con leche de coco</h5>
+                        <p class="card-text">
+                            Ingredientes:<br>
+                            - 1 taza de tapioca<br>
+                            - 1 raja de canela<br>
+                            - . . .<br>
+                    </div>
+                    <a href="#" class="card-link">Leer más</a>
+                </div>
             </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="200">
-            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">¿Cuál sería la mejor opción para una buena alimentación?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Comer lo más balanceado posible, no importa que alimentos consumas lo importante es saber combinar entre los beneficios que nos dan entre proteínas, carbohidratos y grasas.
-              </p>
+            <div class="col-lg">
+                <div class="card" style="width: 20rem; background-color: #DBF9D8; padding: 30px 20px">
+                    <img src="images/caldo.jpg" class="card-img-top img-fluid mb-4 rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Caldo verde</h5>
+                        <p class="card-text">Ingredientes:<br>
+                            - 4 patatas frescas<br>
+                            - 2 dientes de ajo<br>
+                            - . . .<br>
+                    </div>
+                    <a href="#" class="card-link">Leer más</a>
+                </div>
             </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="300">
-            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">¿Si sudo estoy quemando grasa? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                No, la grasa no se puede quemar al sudar, porque al sudar tu cuerpo pierde líquido y si la cantidad de líquido perdido es considerable puedes deshidratarte. Para quemar la grasa necesitas estar en un estado de déficit calórico en un periodo medianamente largo.
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="400">
-            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">¿La grasa se puede convertir en músculo y viceversa? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                No, es totalmente falso, la grasa es energía acumulada por exceso de calorías, en cambio los músculos son tejidos existentes en el ser humano que tienen la capacidad de generar movimiento al contraerse y relajarse.
-              </p>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-
-  <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title" data-aos="fade-up">
-        <h2>Contacto</h2>
-        <p>Contáctanos</p>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-          <div class="info">
-            <div class="address">
-              <i class="bi bi-geo-alt"></i>
-              <h4>Ubicación:</h4>
-              <p>Av. Angamos 1232, Surco, Lima Perú</p>
-            </div>
-
-            <div class="email">
-              <i class="bi bi-envelope"></i>
-              <h4>Email:</h4>
-              <p>nutricare@gmail.com</p>
-            </div>
-
-            <div class="phone">
-              <i class="bi bi-phone"></i>
-              <h4>Llama a:</h4>
-              <p>935 723 573</p>
-            </div>
-
-          </div>
-
         </div>
 
-        <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+        <!-- Section 2 -->
+        <div class="row row-spacing">
+            <div class="col-md-6 left">
+                <figure class="section-text_left">
+                    <h1 style="color: #42B898">
+                        Lista de alimentos recomendados
+                    </h1>
+                    <p style="color: #49CA53">
+                        Encuentre todos los alimentos que le ayuden a mantener una dieta bajo en grasas
+                    </p>
+                </figure>
+            </div>
+            <div class="col-md-6 section-img">
+                <img src="images/vegetables.jpg" class="img-fluid mx-auto d-block w-100" alt="...">
+            </div>
+        </div>
 
-          <form class="php-email-form">
+        <!-- Section 3 -->
+        <div class="row row-spacing">
+            <div class="col-md-6 left section-img">
+                <img src="images/salad.jpg" class="img-fluid mx-auto d-block w-100" alt="...">
+            </div>
+            <div class="col-md-6 right">
+                <figure class="section-text_right">
+                    <h1 style="color: #42B898">
+                        Recetas y planes nutricionales
+                    </h1>
+                    <p style="color: #49CA53">
+                        Contamos con diversas recetas y planes nutricionales básicos
+                        para que pueda ir empezando su dieta
+                    </p>
+                </figure>
+            </div>
+        </div>
+
+        <!-- Section 4 -->
+        <div class="row row-spacing">
+            <div class="col-md-6">
+                <figure class="section-text_left">
+                    <h1 style="color: #42B898">
+                        Citas personalizadas
+                    </h1>
+                    <p style="color: #49CA53">
+                        Reserve su cita para ser atendido por un nutricionista mediante videollamada
+                    </p>
+                </figure>
+            </div>
+            <div class="col-md-2 col-btn">
+                <img src="images/person1.jpg" class="img-fluid w-100 rounded-circle" alt="...">
+                <h2 style="color: #0080CF; font-size: 28px; text-align: center">Rozaliya Pérez</h2>
+                <a class="btn btn-secondary" href="#">Ver perfil</a>
+            </div>
+            <div class="col-md-2 col-btn">
+                <img src="images/person2.jpg" class="img-fluid w-100 rounded-circle" alt="...">
+                <h2 style="color: #0080CF; font-size: 28px; text-align: center">Marco García</h2>
+                <a class="btn btn-secondary" href="#">Ver perfil</a>
+            </div>
+            <div class="col-md-2 col-btn">
+                <img src="images/person3.jpg" class="img-fluid w-100 rounded-circle" alt="...">
+                <h2 style="color: #0080CF; font-size: 28px; text-align: center">Anna Flores</h2>
+                <a class="btn btn-secondary" href="#">Ver perfil</a>
+            </div>
+        </div>
+
+        <!-- Section 5 -->
+        <div class="row row-spacing">
             <div class="row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
-              </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-              </div>
+                <div class="col-md-6 section-img">
+                    <img src="images/team.jpg" class="img-fluid mx-auto d-block w-100" alt="...">
+                </div>
+                <div class="col-md-6 left">
+                    <figure class="section-text_right">
+                        <h1 style="color: #42B898">
+                            SoftWar
+                        </h1>
+                        <p style="color: #49CA53">
+                            Somos un startup que desarrolla aplicaciones innovadoras que ayudan a
+                            muchas personas brindando soluciones practicas y personalizadas
+                        </p>
+                    </figure>
+                </div>
             </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Cargando</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Tu mensaje fue enviado. Gracias!</div>
-            </div>
-            <div class="text-center"><button type="submit">Enviar mensaje</button></div>
-          </form>
-
         </div>
 
-      </div>
-
     </div>
-  </section>
 
-</main>
-
-<footer id="footer">
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-4 col-md-6">
-          <div class="footer-info">
-            <h3>Nutricare</h3>
-            <p class="pb-3"><em>"En Nutricare te recordamos que no solo importa llegar a la meta si no como llegas a ella" </em></p>
-            <p>
-              Av. Angamos 1232<br>
-              Surco - Lima - Perú<br><br>
-              <strong>Phone:</strong> 935 723 573<br>
-              <strong>Email:</strong> nutricare@gmail.com<br>
+    <!-- Section 6 -->
+    <div class="image">
+        <img src="images/bg-final.jpg" class="image-final" alt="">
+        <div class="image-overlay">
+            <div class="image-title">
+                <h1 style="color: white; text-align: center; font-size: 4vw">
+                    No te quedes atrás y<br>
+                    comienza desde ahora
+                </h1>
+            </div>
+            <p class="image-description" style="color: white; text-align: center; font-size: 2.1vw">
+                Empieza a crear tu propia dieta o consulta con<br>
+                uno de nuestros nutricionistas vía online
             </p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            </div>
-          </div>
+            <a class="btn btn-secondary" href="#">Ir a plataforma</a>
         </div>
 
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Links útiles</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Acerca de nosotros</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Términos de servicio</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Politica de privacidad</a></li>
-          </ul>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #00B376">
+        <div class="container p-4 pb-0">
+            <section class="">
+                <div class="row">
+                    <hr class="w-100 clearfix d-md-none" />
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 footer-section">
+                        <p><a class="text-white" href="#">Inicio</a></p>
+                        <p><a class="text-white" href="#">Nutrición</a></p>
+                        <p><a class="text-white" href="#">Nutricionistas</a></p>
+                        <p><a class="text-white" href="#">Nosotros</a></p>
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 footer-section">
+                        <p><i class="mr-3"></i>soft.war@gmail.com</p>
+                        <p><i class="mr-3"></i>Whatsapp:   +51 999 999 999</p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <!-- Twitter -->
+                        <hr class="w-100 clearfix d-md-none" />
+                        <a
+                                class="btn btn-primary btn-floating m-1"
+                                style="background-color: #55acee"
+                                href="#"
+                                role="button"
+                        ><i class="fab fa-twitter"></i></a>
+                        <!-- Facebook -->
+                        <a
+                                class="btn btn-primary btn-floating m-1"
+                                style="background-color: #3b5998"
+                                href="#"
+                                role="button"
+                        ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <!-- Instagram -->
+                        <a
+                                class="btn btn-primary btn-floating m-1"
+                                style="background-color: #ac2bac"
+                                href="#"
+                                role="button"
+                        ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
+                </div>
+            </section>
         </div>
-
-        <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>Suscripción</h4>
-          <p>Suscríbete a nuestra página para obtener novedades</p>
-          <form>
-            <input type="email" name="email"><input type="submit" value="Suscríbete">
-          </form>
-
+        <div class="text-center p-3" style="background-color: #00B376">
+            ©2021 Softwar  Co., Ltd. All Rights Reserved.
         </div>
+    </footer>
 
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="copyright">
-      &copy; Copyright <strong><span>Bootslander</span></strong>. All Rights Reserved
-    </div>
-    <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-    </div>
-  </div>
-</footer>
-
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-<div id="preloader"></div>
-
-
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/purecounter/purecounter.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-<script src="assets/js/main.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous">
+    </script>
 </body>
-
 </html>

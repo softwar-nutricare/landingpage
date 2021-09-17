@@ -1,0 +1,146 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 h2 a p {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.row-spacing {
+    padding: 50px;
+}
+
+/* Carousel */
+.carousel-text {
+    text-align: center;
+    text-shadow: 6px 6px 10px black;
+}
+.carousel-text p {
+    font-size: 28px;
+}
+
+
+/* Body */
+.col-md-6 {
+    display: grid;
+    place-items: center;
+    padding: 0;
+}
+
+/* Cards */
+.card-body h5{
+    color: #009A89;
+    text-align: center;
+    font-size: 26px;
+}
+.card-body p{
+    color: #0080CF;
+    font-size: 18px;
+}
+.card-link {
+    color: #49CA53;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+
+/* Sections */
+.section-text_left h1 {
+    font-size: 54px;
+    font-style: italic;
+    line-height: 58px;
+
+}
+.section-text_left p {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 36px;
+}
+
+.section-text_right h1 {
+    font-size: 54px;
+    font-style: italic;
+    line-height: 58px;
+    text-align: right;
+
+}
+.section-text_right p {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 36px;
+    text-align: right;
+}
+
+.section-img img {
+    border-radius: 50px;
+}
+
+
+/* Buttons */
+.btn-secondary {
+    background-color: #0BB48C;
+    border: 12px #0BB48C;
+}
+.btn-secondary a {
+    color: white;
+}
+.col-btn {
+    text-align: center;
+}
+.btn-secondary:hover {
+    background-color: #228456;
+}
+
+/* Final Section */
+.image {
+    position: relative;
+    width: 100%;
+}
+.image-final {
+    display: block;
+    width: 100%;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Segoe UI", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image-title {
+    font-weight: bold;
+    text-shadow: 3px 3px 10px black;
+    margin: 20px;
+}
+
+.image-description {
+    text-shadow: 6px 6px 10px black;
+    margin: 10px;
+}
+.image-overlay .btn-secondary {
+    font-size: 1.3vw;
+    padding: 16px;
+}
+
+/* Footer */
+.footer-section a {
+    font-family: "Segoe UI", sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.footer-section p {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 22px;
+}
