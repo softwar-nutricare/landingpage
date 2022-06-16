@@ -13,14 +13,20 @@ h1 h2 a p {
 }
 
 /* Carousel */
-.carousel-text {
+.carousel-text h2 {
     text-align: center;
-    text-shadow: 6px 6px 10px black;
-}
-.carousel-text p {
-    font-size: 28px;
+    font-size: 40px;
+    text-shadow: 7px 7px 7px black;
 }
 
+.carousel-text p {
+    font-size: 28px;
+    text-shadow: 7px 7px 5px black;
+}
+
+.carousel-caption{
+    padding-bottom: 23rem;
+}
 
 /* Body */
 .col-md-6 {
@@ -35,10 +41,12 @@ h1 h2 a p {
     text-align: center;
     font-size: 26px;
 }
+
 .card-body p{
     color: #0080CF;
     font-size: 18px;
 }
+
 .card-link {
     color: #49CA53;
     text-align: right;
@@ -49,14 +57,13 @@ h1 h2 a p {
     text-decoration: none;
 }
 
-
 /* Sections */
 .section-text_left h1 {
     font-size: 54px;
     font-style: italic;
     line-height: 58px;
-
 }
+
 .section-text_left p {
     font-size: 32px;
     line-height: 40px;
@@ -68,8 +75,8 @@ h1 h2 a p {
     font-style: italic;
     line-height: 58px;
     text-align: right;
-
 }
+
 .section-text_right p {
     font-size: 32px;
     line-height: 40px;
@@ -81,18 +88,20 @@ h1 h2 a p {
     border-radius: 50px;
 }
 
-
 /* Buttons */
 .btn-secondary {
     background-color: #0BB48C;
     border: 12px #0BB48C;
 }
+
 .btn-secondary a {
     color: white;
 }
+
 .col-btn {
     text-align: center;
 }
+
 .btn-secondary:hover {
     background-color: #228456;
 }
@@ -102,10 +111,12 @@ h1 h2 a p {
     position: relative;
     width: 100%;
 }
+
 .image-final {
     display: block;
     width: 100%;
 }
+
 .image-overlay {
     position: absolute;
     top: 0;
@@ -118,6 +129,7 @@ h1 h2 a p {
     align-items: center;
     justify-content: center;
 }
+
 .image-title {
     font-weight: bold;
     text-shadow: 3px 3px 10px black;
@@ -128,6 +140,7 @@ h1 h2 a p {
     text-shadow: 6px 6px 10px black;
     margin: 10px;
 }
+
 .image-overlay .btn-secondary {
     font-size: 1.3vw;
     padding: 16px;
